@@ -1,0 +1,32 @@
+// ########## VERTICAL SCROLLBAR ########## //
+
+@import './variables';
+
+::-webkit-scrollbar {
+  width: 0.7rem;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+/* Only show scrollbar on screens wider than 600px */
+@media screen and (max-width: $bp-small) {
+  ::-webkit-scrollbar {
+    opacity: 1;
+    display: none;
+  }
+}
+
+body::-webkit-scrollbar-track {
+  background: lighten($color-black, 90%);
+}
+::-webkit-scrollbar-thumb {
+  background-color: $color-primary-1;
+  border-radius: $bd-radius-sm;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Show scrollbar when actively scrolling */
+::-webkit-scrollbar-thumb:active {
+  opacity: 1;
+}

@@ -1,11 +1,11 @@
 //import Image from 'next/image';
-import styles from './page.module.scss';
+import homeStyles from './page.module.scss';
 
 const HomePage = () => {
   return (
-    <main className={styles.main}>
-      <div>Test...</div>
-    </main>
+    <div className={homeStyles}>
+      <h1>Welcome</h1>
+    </div>
   );
 };
 

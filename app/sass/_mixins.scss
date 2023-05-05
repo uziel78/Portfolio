@@ -1,0 +1,9 @@
+// ######### MIXINS ######## //
+
+// center content
+@mixin center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

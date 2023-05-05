@@ -1,0 +1,11 @@
+@import '../sass/variables';
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 60px;
+  background-color: $color-primary-1;
+  color: $color-black;
+  padding: 2rem;
+}

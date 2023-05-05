@@ -1,0 +1,11 @@
+@import '../sass/variables';
+
+.footer {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  min-height: 50px;
+  background-color: $color-secondary-1;
+  color: $color-white;
+  padding: 2rem;
+}
