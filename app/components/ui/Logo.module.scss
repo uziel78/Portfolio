@@ -1,0 +1,21 @@
+@import '@/app/sass/variables';
+
+.logo {
+  display: flex;
+  height: 3.6rem;
+  width: 3.6rem;
+  border-radius: 50%;
+  background-color: $color-secondary-1;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
