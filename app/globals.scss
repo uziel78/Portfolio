@@ -22,6 +22,7 @@ html {
 body {
   box-sizing: border-box;
   font-size: $default-font-size;
+  min-height: 100vh;
 }
 
 html,
@@ -38,7 +39,9 @@ a {
 .container {
   background-color: $color-white;
   flex: 1 0 auto;
-  //padding-top: 6rem;
+  width: 100%;
+  //equals height of navbar component, not needed with position:relative on navbar component
+  //margin-top: 6vh;
 }
 
 main {

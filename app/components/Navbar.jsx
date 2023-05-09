@@ -10,14 +10,23 @@ const Navbar = () => {
     <header className={navStyles.header}>
       <div className={navStyles.content}>
         <nav className={navStyles.page__links}>
-          <Link href='/'>Home</Link> |<Link href='/about'>About</Link> |
-          <Link href='/projects'>Projects</Link> |
-          <Link href='/code/repos'>Code</Link>
+          <Link href='/' className={navStyles.page__link}>
+            Home
+          </Link>
+          <Link href='/about' className={navStyles.page__link}>
+            About
+          </Link>
+          <Link href='/projects' className={navStyles.page__link}>
+            Projects
+          </Link>
+          <Link href='/code/repos' className={navStyles.page__link}>
+            Code
+          </Link>
         </nav>
 
         <Logo />
 
-        <nav className={navStyles.external__links}>
+        <nav className={navStyles.social__links}>
           <Link
             href='https://www.facebook.com/profile.php?id=100080220701486'
             target={'_blank'}

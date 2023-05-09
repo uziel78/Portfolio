@@ -1,11 +1,11 @@
 'use client';
 
 import './globals.scss';
-import { Montserrat } from 'next/font/google';
+import { Karla } from 'next/font/google';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-const montserrat = Montserrat({ subsets: ['latin'] });
+const karla = Karla({ subsets: ['latin'], variables: {} });
 
 export const metadata = {
   title: 'Portfolio Page',
@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={montserrat.className}>
+      <body className={karla.className}>
         <Navbar />
         <div className='container'>
           <main>{children}</main>
