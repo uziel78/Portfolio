@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <header className={navStyles.header}>
       <div className={navStyles.content}>
-        <nav className={navStyles.page__links}>
+        <nav className={navStyles.page}>
           <Link href='/' className={navStyles.page__link}>
             Home
           </Link>
@@ -26,16 +26,18 @@ const Navbar = () => {
 
         <Logo />
 
-        <nav className={navStyles.social__links}>
+        <nav className={navStyles.social}>
           <Link
             href='https://www.facebook.com/profile.php?id=100080220701486'
             target={'_blank'}
+            className={navStyles.social__link}
           >
             <FaFacebook />
           </Link>
           <Link
             href='https://github.com/uziel78?tab=repositories'
             target={'_blank'}
+            className={navStyles.social__link}
           >
             <FaGithub />
           </Link>

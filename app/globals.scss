@@ -40,8 +40,9 @@ a {
   background-color: $color-white;
   flex: 1 0 auto;
   width: 100%;
-  //equals height of navbar component, not needed with position:relative on navbar component
-  //margin-top: 6vh;
+  //equals height of navbar component
+  margin-top: 6vh;
+  min-height: 94vh;
 }
 
 main {

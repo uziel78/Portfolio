@@ -1,0 +1,36 @@
+@import './sass/mixins';
+@import './sass/variables';
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 94vh;
+  width: 100%;
+  margin: 4rem 0 rem;
+  background-color: $color-white;
+
+  // Image Contaier
+  & .imgContainer {
+    flex: 1 0 50%;
+    @include center;
+
+    &__img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  // Text Container
+  & .textContainer {
+    flex-direction: column;
+    height: auto;
+    @include center;
+    flex: 1 0 50%;
+    min-width: 400px;
+
+    &__paragraph {
+      padding-left: 5rem;
+      line-height: 2.4rem;
+    }
+  }
+}

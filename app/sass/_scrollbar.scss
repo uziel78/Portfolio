@@ -20,7 +20,7 @@ body::-webkit-scrollbar-track {
   background: lighten($color-black, 90%);
 }
 ::-webkit-scrollbar-thumb {
-  background-color: $color-primary-1;
+  background-color: $color-black;
   border-radius: $bd-radius-sm;
 }
 ::-webkit-scrollbar-thumb:hover {

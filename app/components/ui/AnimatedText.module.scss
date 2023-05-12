@@ -1,0 +1,11 @@
+.txtContainer {
+  padding: 5rem;
+  overflow: hidden;
+
+  &__content {
+    font-weight: 700;
+    font-size: 7rem;
+    line-height: 8rem;
+    letter-spacing: 0.2rem;
+  }
+}
