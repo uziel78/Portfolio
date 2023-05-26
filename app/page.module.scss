@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   min-height: 94vh;
   width: 100%;
-  margin: 4rem 0 rem;
+  //margin: 4rem 0rem;
   background-color: $color-white;
 
   // Image Contaier
@@ -17,6 +17,8 @@
     &__img {
       height: 100%;
       width: 100%;
+      //border-radius: 50%;
+      //padding: 10vh 2vw;
     }
   }
 
@@ -26,11 +28,24 @@
     height: auto;
     @include center;
     flex: 1 0 50%;
-    min-width: 400px;
+    min-width: 25em;
+    padding: 3rem;
 
     &__paragraph {
-      padding-left: 5rem;
+      //padding: 4rem 0rem 4rem 5rem;
       line-height: 2.4rem;
+      font-size: $default-font-size;
+      margin-top: 8vh;
+    }
+
+    &__cta {
+      //padding: 2rem 0rem 0rem 5rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      width: 100%;
+      margin: 6vh 0rem;
+      gap: 5rem;
     }
   }
 }
