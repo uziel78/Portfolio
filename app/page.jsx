@@ -20,14 +20,20 @@ const HomePage = () => {
           alt='heroImage on homepage'
           className={homeStyles.imgContainer__img}
         />
+        <div className={homeStyles.fade}></div>
       </div>
+
       {/* text container */}
       <div className={homeStyles.textContainer}>
-        <AnimatedText text='Turning Vision into Reality with Code and Design.' />
+        <AnimatedText text='Transforming Vision into Digital Reality.' />
         <p className={homeStyles.textContainer__paragraph}>
-          As a skilled fronend developer, I'm dedicated to help turning great
-          ideas into innowative and functional web applications for the modern
-          web.
+          Welcome! I&apos;m here to bridge the gap between your dreams and the
+          digital realm. With a passion for frontend development, I have the
+          skills and creativity to turn your vision into an engaging online
+          experience. By meticulously crafting intuitive user interfaces and
+          leveraging the latest web technologies, I ensure your digital reality
+          exceeds expectations. Join me on this transformative journey and
+          let&apos;s bring your ideas to life.
         </p>
         <div className={homeStyles.textContainer__cta}>
           <Link href='/CV_RH.pdf' target={'_blank'}>

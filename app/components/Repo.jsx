@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { FaStar, FaCodeBranch, FaEye } from 'react-icons/fa';
+import repoStyles from './Repo.module.scss';
 
 async function fetchRepo(name) {
   const response = await fetch(`https://api.github.com/repos/uziel78/${name}`, {
